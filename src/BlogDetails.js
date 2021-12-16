@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom"; // for route parameters
 import useFetch from "./useFetch";
 import { useHistory } from "react-router-dom/"; // for redirects
 
