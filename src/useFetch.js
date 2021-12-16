@@ -6,7 +6,7 @@ const useFetch = (url) => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        const abortCont = new AbortController;
+        const abortCont = new AbortController();
 
         fetch(url, { signal: abortCont.signal })
             .then(response => {
